@@ -1,0 +1,20 @@
+.kuva1 {
+    width: 300px;
+    font-size: 1.25 em;
+    float: right;
+    border-left: 15px #770000 solid;
+    padding: 0.5em 1em;
+    color: #AAFFFF;
+    margin: 1 em;
+    background-color: #000033;
+}
+.kuva2 {
+    width: 300px;
+    font-size: 1.25 em;
+    float: left;
+    border-left: 15px #770000 solid;
+    padding: 0.5em 1em;
+    color: #AAFFFF;
+    margin: 1 em;
+    background-color: #000033;
+}
