@@ -1,0 +1,14 @@
+div {
+    text-align: center;
+    border: 10px solid cyan;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    align-items: center;
+    background-color:lightblue;min-height:10px;
+    display: flex;
+    justify-content: center;
+    
+}
+li {
+    display: inline;
+}
