@@ -1,6 +1,11 @@
 body {
     background-color: aqua;
 }
+@media only screen and (max-width: 720px) {
+    body {
+      background-color: rgb(38, 0, 255);
+    }
+  }
 @media only screen and (max-width: 320px) {
     body {
       background-color: lightblue;
@@ -20,3 +25,4 @@ body {
     animation-name: example;
     animation-duration: 5s;
   }
+  
