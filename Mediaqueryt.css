@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+}
+@media only screen and (max-width: 320px) {
+    body {
+      background-color: lightblue;
+    }
+    html {
+        font-size: 1em;
+     }
+  }
+  
+  @keyframes example {
+    from {font-size: 10px;}
+    to {font-size: 20px;}
+  }
+  div {
+    width: 20px;
+    height: auto;
+    animation-name: example;
+    animation-duration: 5s;
+  }
