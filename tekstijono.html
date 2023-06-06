@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+
+    <p id="Lorem"></p>
+    <button id="palikka">Ty it</button>
+    <p id="pepsi"></p>
+
+<script>
+        let text = document.getElementById("palikka").innerText;
+        document.getElementById("pepsi").innerHTML = text;  
+</script>
+
+<script>
+    let KORI = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa. Justo nec ultrices dui sapien eget mi proin.Vestibulum sed arcu non odio euismod lacinia at. Quis imperdiet massa tincidunt nunc pulvinar sapien et.";
+    let result = KORI.toUpperCase();
+
+    document.getElementById("Lorem").innerHTML = result;
+
+</script>
+
+
+
+</body>
+</html>
